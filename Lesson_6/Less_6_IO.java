@@ -36,16 +36,16 @@ public class Less_6_IO {
             ps.close();
 
 
-//            FileOutputStream fos = new FileOutputStream("test.txt", true);
-//            fos.write('\n');
-//            fos.write(72);
-//            fos.write('\n');
-//            byte[] a = {'h', 'e', 'l', 'l', 'o'};
-//            fos.write(a);
-//            fos.write('\n');
-//            fos.write("Hello World".getBytes());
-//            fos.flush();
-//            fos.close();
+            FileOutputStream fos = new FileOutputStream("test.txt", true);
+            fos.write('\n');
+            fos.write(72);
+            fos.write('\n');
+            byte[] a = {'h', 'e', 'l', 'l', 'o'};
+            fos.write(a);
+            fos.write('\n');
+            fos.write("Hello World".getBytes());
+            fos.flush();
+            fos.close();
         } catch(FileNotFoundException e) {
             System.out.println(e);
         } catch (IOException e) {
