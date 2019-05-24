@@ -46,13 +46,12 @@ public class HW_6 {
     }
 
     private static boolean seachInFile(FileInputStream fis, String str) throws IOException{
-//        System.out.println((char)fis.read());
         int text;
         byte[] str_b = str.getBytes();
         int i=0;
-//        boolean seach;
+
         while ((text=fis.read()) != -1){
-//            System.out.println((char)text);
+
             if (text == str_b[i]){
                 i++;
             }
